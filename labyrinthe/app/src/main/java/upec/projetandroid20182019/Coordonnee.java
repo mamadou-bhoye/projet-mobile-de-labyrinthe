@@ -1,0 +1,28 @@
+package upec.projetandroid20182019;
+
+public class Coordonnee {
+
+    float X;
+    float Y;
+
+    public Coordonnee(float X, float Y){
+        this.X = X;
+        this.Y = Y;
+    }
+
+    public float getX() {
+        return X;
+    }
+
+    public float getY() {
+        return Y;
+    }
+
+    public void setX(float x) {
+        X = x;
+    }
+
+    public void setY(float y) {
+        Y = y;
+    }
+}
